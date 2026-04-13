@@ -141,6 +141,7 @@ string fmt(double val) {
     if (pos != string::npos) s[pos] = ',';
     return s;
 }
+//В окне недостаточно точек для построения полинома заданной степени (например, 2 точки при степени 2).
 int main() {
     setlocale(LC_ALL, "Russian");
 
